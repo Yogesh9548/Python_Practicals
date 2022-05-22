@@ -1,0 +1,5 @@
+a = {'Yashu':100,'Rahul':150,'Rohit':200}
+max_v = max(a.values())
+min_v = min(a.values())
+print(f'Maximum value = {max_v}')
+print(f'Minimum value = {min_v}')
