@@ -1,0 +1,5 @@
+a = {'Yashu':100,'Rahul':200}
+b = {'Yash':300,'Mukul':400}
+d = a.copy()
+d.update(b)
+print(d)
