@@ -1,0 +1,4 @@
+key = ['Yashu','Shivam','Yash']
+value = ['Employee','Developer','Programmer']
+lst = dict(zip(key,value))
+print(lst)
