@@ -1,0 +1,10 @@
+a = {}
+size = int(input("Enter the size of dict : "))
+for i in range(size):
+    key = input("Enter the keys of dict : ")
+    value = int(input("Enter the values of dict : "))
+    a.update({key:value})
+mul = 1
+for i in a:
+    mul = mul * a[i]
+print('Multiplication of values = ',mul)
