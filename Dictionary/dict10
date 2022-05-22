@@ -1,0 +1,6 @@
+a = {'Yashu':100,'Shivam':200,'Shivani':300}
+key = input("Enter a  key to check weather key is present in dict or not : ")
+if key in a.keys():
+    print("key is present in dict")
+else:
+    print("Key is not present in dict")
