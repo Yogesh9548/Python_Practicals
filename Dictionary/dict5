@@ -1,0 +1,4 @@
+a = {'Yashu':100,'Shivam':200,'Rahul':300}
+key = input("Enter the key to remove from dict : ")
+a.pop(key)
+print(a)
