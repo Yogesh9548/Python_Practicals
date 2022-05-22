@@ -1,1 +1,1 @@
-# Python_Practicals
+# Python_tut
