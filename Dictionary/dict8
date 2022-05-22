@@ -1,0 +1,10 @@
+a = {}
+size = int(input("Enter the size of dict : "))
+for i in range(size):
+    key = int(input("Enter the key of dict : "))
+    value = int(input("Enter the value of dict : "))
+    a.update({key:value})
+if not bool(a):
+    print("Dictionary is empty")
+else:
+    print("Dictionary is not empty")
