@@ -1,0 +1,12 @@
+def count(val):
+    v = 0
+    c = 0
+    for i in range(len(val)):
+        if val[i] in ('a','e','i','o','u'):
+            v = v + 1
+        else:
+            c = c + 1
+    print('Vowel = ',v)
+    print('Consonant = ',c)
+val = input("Enter a word : ")
+count(val)
