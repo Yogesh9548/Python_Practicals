@@ -1,0 +1,10 @@
+def accept(val):
+    return val
+while(True):
+    a = input("Enter a word : ")
+    if(a>='A' and a<='Z'):
+        print("Please enter valid input")
+    else:
+        break
+a = a.upper()
+print(accept(a))
