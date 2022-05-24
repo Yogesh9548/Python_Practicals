@@ -1,0 +1,11 @@
+def perfect(num):
+    sum = 0
+    for i in range(1,num):
+        if num%i==0:
+            sum = sum + i
+    if sum == num:
+        return f'{num} is prefect number'
+    else:
+        return f'{num} is not a perfect number'
+num = int(input("Enter a number to check weather it is prefect or not : "))
+print(perfect(num))
