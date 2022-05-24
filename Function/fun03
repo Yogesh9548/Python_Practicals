@@ -1,0 +1,8 @@
+def roll_n(roll):
+    x = [1,2,3,4,5]
+    if roll in x:
+        print("Student is present")
+    else:
+        print("Student is absent")
+roll = int(input("Enter a number to check weather student is present or not : "))
+roll_n(roll)
