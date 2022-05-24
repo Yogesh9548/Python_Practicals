@@ -1,0 +1,36 @@
+def sum(a,b):
+    c = a + b
+    return c
+def mul(a,b):
+    c = a * b
+    return c
+def sub(a,b):
+    c = a - b
+    return c
+def div(a,b):
+    c = a / b
+    return c
+print('Press 1 for addition\nPress 2 for multiplication\nPress 3 for substraction\nPress 4 for division')
+num = int(input("Choose a number for calculation : "))
+if num == 1:
+    a = int(input("Enter first value : "))
+    b = int(input("Enter second value : "))
+    c = sum(a,b)
+    print(f'The sum of {a} and {b} is = {c}')
+elif num == 2:
+    a = int(input("Enter first value : "))
+    b = int(input("Enter second value : "))
+    c = mul(a, b)
+    print(f'The mul of {a} and {b} is = {c}')
+elif num == 3:
+    a = int(input("Enter first value : "))
+    b = int(input("Enter second value : "))
+    c = sub(a, b)
+    print(f'The sub of {a} and {b} is = {c}')
+elif num == 4:
+    a = int(input("Enter first value : "))
+    b = int(input("Enter second value : "))
+    c = div(a, b)
+    print(f'The div of {a} and {b} is = {c}')
+else:
+    print('Please choose from given number')
