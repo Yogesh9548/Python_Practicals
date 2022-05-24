@@ -1,0 +1,14 @@
+def count_upper_lower(s):
+    d = {'Lower Case':0,'Upper Case':0}
+    for i in s:
+        if i.isupper():
+            d['Upper Case'] += 1
+        elif i.islower():
+            d['Lower Case'] += 1
+        else:
+            pass
+    print('Original String = ',s)
+    print('Upper Case = ',d['Upper Case'])
+    print('Lower Case = ',d['Lower Case'])
+s = input("Enter a string : ")
+count_upper_lower(s)
