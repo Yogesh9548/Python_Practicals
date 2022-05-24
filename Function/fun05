@@ -1,0 +1,10 @@
+def shut_down(s):
+    if s == 'yes':
+        return 'Shutting Down'
+    elif s == 'no':
+        return 'Shutdown Aborted'
+    else:
+        return 'Sorry'
+s = input("Enter a string : ")
+p = shut_down(s)
+print(p)
