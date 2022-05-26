@@ -1,0 +1,13 @@
+import numpy as np
+r = int(input("Enter the number of rows : "))
+c = int(input("Enter the number of col : "))
+m = []
+print("Enter the element rowise : ")
+for i in range(r):
+    a = []
+    for j in range(c):
+        ele = int(input("Enter the element of matrix : "))
+        a.append(ele)
+    m.append(a)
+m = np.array(m)
+print(m)
