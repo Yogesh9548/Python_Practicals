@@ -1,0 +1,4 @@
+import numpy as np
+x = int(input("Enter the order of matrix : "))
+a = np.eye(x)
+print(a)
